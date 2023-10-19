@@ -3,5 +3,34 @@
   padding:0;
   box-sizing:border-box;
   font-family: 'Pixelify Sans', sans-serif;
+  text-align: center;
+  
+  color:white;
+
 }
 
+body{
+  background:url(img/landscape.jpeg); height:100% no-repeat center / cover;
+}
+h1{
+  font-size: 75px;
+}
+.cat_words{
+  font-size: 40px;
+}
+#next_quote {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Added transition for background and box-shadow */
+
+
+}
+
+#next_quote:hover {
+  background-color: #04885E; /* Change the background color on hover */
+}
